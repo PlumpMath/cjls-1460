@@ -1,3 +1,5 @@
 goog.provide("strange_loop.code");
 
-console.log("hey");
+strange_loop.code.greet = function() {
+    console.log("Hi Strangeloop!");
+};
